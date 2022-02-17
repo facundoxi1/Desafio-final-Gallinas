@@ -225,24 +225,28 @@ footer {
 }
 /* Tablet media query */
 @media screen and (min-width: 200px) {
-  header nav ul {
+  .header-media {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding-bottom: 3%;
-    font-size: 0.5rem;
+    padding-bottom: 2%;
+    font-size: 0.6rem;
   }
 }
 
 @media screen and (min-width: 400px) {
-  header nav ul {
+  .header-media {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding-bottom: 3%;
-    font-size: 1rem;
+    padding-bottom: 2%;
+    font-size: 0.8rem;
+  }
+  .logogallina.png img {
+    width: "30";
+    height: "30";
   }
 
   .gallina-plano {
@@ -274,14 +278,14 @@ footer {
     margin-left: 2px;
   }
 }
-@media screen and (min-width: 660px) {
-  header nav ul {
+@media screen and (min-width: 550px) {
+  .header-media {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding-bottom: 3%;
-    font-size: 1.5rem;
+    padding-bottom: 2%;
+    font-size: 1.2rem;
   }
 
   .gallina-plano {
